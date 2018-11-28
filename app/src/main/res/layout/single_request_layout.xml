@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="request"
+            type="io.edgedev.mitaxi.Request"/>
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:id="@+id/name_of_riderHailer"
+            tools:text="Mr. Chijoke Okon"
+            android:text="@{request.name}"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:id="@+id/distanceToLocation"
+            tools:text="10km Away - Ikeja GRA"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:id="@+id/acceptRide"
+                android:text="Accept"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:id="@+id/declineRide"
+                android:text="Decline"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "192581042348",
+    "firebase_url": "https://uber-app-1a0e4.firebaseio.com",
+    "project_id": "uber-app-1a0e4",
+    "storage_bucket": "uber-app-1a0e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192581042348:android:8281f71c67689c5d",
+        "android_client_info": {
+          "package_name": "edgedev.uberapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192581042348-1a60qoba6d4jr2t9icgj7be0a5tmjsas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edgedev.uberapp",
+            "certificate_hash": "0ec0f0cfc9f9f2c17ecf10cee378c4c41483e5c8"
+          }
+        },
+        {
+          "client_id": "192581042348-5rsp84uqcmk39qfiuununo1ts069fr61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxNV94BQ7rDmi8EpEnweze6arUALpGtcY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192581042348-5rsp84uqcmk39qfiuununo1ts069fr61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192581042348:android:a6346c96aaa6fea1",
+        "android_client_info": {
+          "package_name": "io.edgedev.mitaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192581042348-i1mc8fudq9fmv4p4125nirfme3ejdsmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.edgedev.mitaxi",
+            "certificate_hash": "0ec0f0cfc9f9f2c17ecf10cee378c4c41483e5c8"
+          }
+        },
+        {
+          "client_id": "192581042348-j316v7b1khhobaubt4j9otuo8010aagp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.edgedev.mitaxi",
+            "certificate_hash": "20fdb889d332d2a9ee983619dea822cb3b1618a4"
+          }
+        },
+        {
+          "client_id": "192581042348-5rsp84uqcmk39qfiuununo1ts069fr61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxNV94BQ7rDmi8EpEnweze6arUALpGtcY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192581042348-5rsp84uqcmk39qfiuununo1ts069fr61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
